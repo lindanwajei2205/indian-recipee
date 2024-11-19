@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    height: 100%;   
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.navbar-brand{
+    padding: 0.5rem 0.5rem;
+    margin-right: 1rem;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex-shrink: 0;
+}
